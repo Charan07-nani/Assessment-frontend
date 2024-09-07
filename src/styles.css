@@ -1,0 +1,251 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #003145;
+  }
+  .hero-content {
+  width: 705px;
+  height: 348px;
+  top: 188px;
+  left: 143px;
+  gap: 0px;
+  opacity: 0px;
+  max-width: 600px;
+  margin-left: 30px;
+  
+  h1{
+    font-family:Geometric sans serif ;
+    color: #fff;
+    margin-left: 35px;
+    font-family:'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+  }
+  p{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  }
+  
+  .btn-primary {
+    background-color: #f8f8f8;
+    color: rgb(4, 4, 4);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 98px;
+  }
+  
+ .statistics {
+    display: flex;
+    background-color: #003145;
+    color: #f8f8f8;
+    justify-content: space-around;
+    padding: 20px;
+    h3 {
+      font-size: 22px;
+      color: #f5f1f1;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      color: #f7f3f3;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-icon {
+    margin-bottom: 30px;
+    color: #1bd54c; /* Example color */
+  }
+  
+/* /Features Styling */
+  .features-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .top-section, .bottom-section {
+    margin-bottom: 50px;
+  }
+   
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .feature-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #202020;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #060505;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .feature-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-item {
+      width: 90%;
+    }
+  }
+
+  /* Hackathon Component */
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0b0a0a;
+  }
+
+  .hackathon-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+    background-color: #003145;
+  }
+  .Challenge-card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Challenge-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .Challenge-content {
+    padding: 15px;
+    display: list-item;
+    text-align: center;
+  }
+  
+  .Challenge-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .Challenge-status.upcoming {
+    background-color: #ffd700;
+  }
+  
+  .Challenge-status.active {
+    background-color: #28a745;
+  }
+  
+  .participate-btn {
+    background-color: #28a745;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+ /* .challenge-cards{
+
+ } 
+  */
+ .footer {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+ .challenge-card {
+    margin: 1rem 0;
+    display: list-item;
+    text-align: center;
+    background-color: #13233a;
+    justify-content: flex-start;
+    width: 354px;
+    height: 473px;
+    top: 2130px;
+    left: 543px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 15px,15px,0px,0px;
+
+  }
+  
+  .status.upcoming {
+    color: orange;
+  }
+  
+  .status.active {
+    color: green;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+  }

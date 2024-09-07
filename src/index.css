@@ -1,0 +1,35 @@
+
+header{
+  font-size: x-small;
+  background:white;
+  width: 1441px;
+height: 64px;
+gap: 0px;
+opacity: 0px;
+margin-left: 68px;
+margin-top: 22px;
+
+
+}
+.myImage{
+  width: 87px;
+height: 38.11px;
+top: 13px;
+left: 89px;
+gap: 0px;
+opacity: 0px;
+
+}
+.main-container{
+width: 1442px;
+height: 625px;
+top: 4px;
+margin-left: -79px;
+gap: 0px;
+opacity: 0px; 
+background: #003145;
+}
+.content-container{
+  color: #003145;
+  justify-content: center;
+}

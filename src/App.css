@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.App {
+  text-align: center;
+  background-color: #0b3b60;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 2rem;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #0b3b60;
+  border: none;
+  cursor: pointer;
+}
+
